@@ -1,0 +1,55 @@
+.services-section {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: fadeInUp 0.6s ease;
+}
+
+.service-card:hover {
+    cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon i {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.service-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background-color: #2dbda8;
+  margin: 10px auto;
+  border-radius: 2px;
+}

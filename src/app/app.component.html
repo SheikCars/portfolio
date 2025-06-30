@@ -1,0 +1,10 @@
+<!-- app.component.html -->
+<app-navbar *ngIf="!isLoading"></app-navbar>
+
+<app-loader *ngIf="isLoading"></app-loader>
+
+<!-- Your main app content -->
+<router-outlet *ngIf="!isLoading"></router-outlet>
+
+
+<app-footer *ngIf="!isLoading"></app-footer>

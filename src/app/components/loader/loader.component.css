@@ -1,0 +1,28 @@
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.wobble-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #2dbda8;
+  border-radius: 50%;
+  animation: wobble 1s ease-in-out infinite;
+}
+
+@keyframes wobble {
+  0%   { transform: scale(1) rotate(0); }
+  25%  { transform: scale(1.1) rotate(5deg); }
+  50%  { transform: scale(0.9) rotate(-5deg); }
+  75%  { transform: scale(1.05) rotate(3deg); }
+  100% { transform: scale(1) rotate(0); }
+}

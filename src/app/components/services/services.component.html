@@ -1,0 +1,15 @@
+<section class="services-section container py-5">
+  <h2 class="text-center mb-4">My Services</h2>
+   <div class="underline mx-auto mb-5"></div>
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-4" *ngFor="let service of services">
+      <div class="service-card">
+        <div class="icon mb-3">
+          <i [class]="service.icon"></i>
+        </div>
+        <h5 class="service-title">{{ service.title }}</h5>
+        <p class="service-description">{{ service.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

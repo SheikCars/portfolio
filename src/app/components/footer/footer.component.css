@@ -1,0 +1,14 @@
+footer {
+  font-family: var(--default-font);
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+footer i {
+  color: #333;
+  transition: color 0.3s;
+}
+
+footer i:hover {
+  color: #0d6efd;
+}

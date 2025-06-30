@@ -1,0 +1,82 @@
+.details{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cloud-card {
+  background: #ffffff85;
+  border-radius: 60px;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+/* Optional: Cloud puff shapes (can go wild with creativity) */
+.cloud-card::before,
+.cloud-card::after {
+  content: '';
+  position: absolute;
+  background: #ffffff85;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.cloud-card::before {
+  width: 100px;
+  height: 100px;
+  top: -30px;
+  left: -30px;
+}
+
+.cloud-card::after {
+  width: 80px;
+  height: 80px;
+  bottom: -30px;
+  right: -30px;
+}
+
+.text-style{
+    font-family: var(--nav-font);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeInLeft 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* .underline {
+    height: 2px;
+    width: 410px;
+    background-color: #cacaca;
+    margin: 10px auto;
+    border-radius: 17px;
+} */
+
+.name-h1{
+      border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+        margin-bottom: 0px;
+}
+
+.name-below{
+      border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

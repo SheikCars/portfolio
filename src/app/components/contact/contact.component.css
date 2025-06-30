@@ -1,0 +1,70 @@
+.contact {
+  padding: 60px 0;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info i {
+  background: #e7f1fd;
+  color: #0563bb;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info h4 {
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.php-email-form {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.php-email-form input,
+.php-email-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.php-email-form button {
+  background: #0563bb;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.php-email-form button:hover {
+  background: #0678e3;
+}
+
+.text-danger {
+  font-size: 12px;
+  color: red;
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background-color: #2dbda8;
+  margin: 10px auto;
+  border-radius: 2px;
+}

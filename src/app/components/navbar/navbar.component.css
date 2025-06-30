@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #e9e8e6;
+    padding-left: 15px;
+    padding-right: 15px;
+        padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a i {
+  color: #555;
+  transition: color 0.3s ease;
+}
+.facebook-link:hover i {
+  color: #285dcf; /* Facebook blue */
+}
+
+.instagram-link:hover i {
+  color: #e4405f; /* Instagram pink/red */
+}
+
+.linkedin-link:hover i {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.github-link:hover i {
+  color: #333; /* GitHub dark grey/black */
+}
+
+a {
+  cursor: pointer; /* 🟢 Ensure all links have pointer */
+}
+
+.navbar-brand {
+  font-family: var(--nav-font);
+  font-weight: 100; /* Optional for styling */
+  font-size: 1.25rem; /* Optional for size */
+  border: none;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+
+
+.nav-link.active {
+  color: #000000 !important;
+  border: 2px solid #c2c2c2;
+  border-radius: 25px;
+  background-color: #ececec;
+}

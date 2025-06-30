@@ -1,0 +1,152 @@
+<div class="about-section container">
+    <!-- Section Title -->
+    <!-- About Content Row -->
+    <div class="about-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
+        style="padding-top: 5%;">
+
+        <!-- Always-visible title -->
+        <div class="text-center w-100">
+            <h2>About</h2>
+            <div class="underline mx-auto"></div>
+        </div>
+
+        <!-- Left: Image -->
+        <div class="about-img">
+            <img src="../../../assets/img/abt-image.jpeg" alt="Profile" />
+        </div>
+
+        <!-- Right: Text -->
+        <div class="about-info">
+            <h3>UI Angular Developer</h3>
+            <p class="fst-italic">
+                I am a passionate frontend developer...
+            </p>
+            <p>
+                I specialize in building interactive and scalable Angular applications with clean, efficient code and a
+                responsive design.
+            </p>
+
+            <div class="info-grid">
+                <ul>
+                    <li><i class="arrow"></i><strong>Birthday:</strong> 09 September 2001</li>
+                    <li><i class="arrow"></i><strong>Website:</strong> NaN</li>
+                    <li><i class="arrow"></i><strong>Phone:</strong> +91 85319 10565</li>
+                    <li><i class="arrow"></i><strong>City:</strong> Thanjavour, Tamilnadu, India</li>
+                    <li>
+                        <i class="arrow"></i>
+                        <strong>Location:</strong>
+                        <a href="#" (click)="goToCurrentLocation($event)">View on map</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li><i class="arrow"></i><strong>Age:</strong> 23</li>
+                    <li><i class="arrow"></i><strong>Degree:</strong> BCA, MCA</li>
+                    <li><i class="arrow"></i><strong>Email:</strong>
+                        <a
+                                href="mailto:syedsheikmd78609&#64;gmail.com">syedsheikmd78609&#64;gmail.com</a>
+                    </li>
+                    <li><i class="arrow"></i><strong>Freelance:</strong> Available</li>
+                </ul>
+                <div>
+                    <p>
+                        With a strong foundation in front-end development and a passion for creating intuitive,
+                        responsive user experiences, I specialize in building scalable Angular applications tailored
+                        to client needs. My focus lies in writing clean, maintainable code and staying updated with
+                        modern
+                        web standards and technologies. I believe in continuous learning and thrive in collaborative
+                        environments where innovation and quality go hand in hand.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="padding-top: 5%;">
+        <h2>Skills</h2>
+        <div class="underline mx-auto"></div>
+        <div>
+            <div class="container skills-section mt-4">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-md-6">
+                        <div class="skill-item">
+                            <span>HTML <span class="float-end">100%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>CSS <span class="float-end">100%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Bootstrap <span class="float-end">100%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Angular <span class="float-end">90%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-6">
+                        <div class="skill-item">
+                            <span>RxJs <span class="float-end">90%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>.Net WebAPI <span class="float-end">70%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Photoshop <span class="float-end">50%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Video Editing(Product Promotion) <span class="float-end">90%</span></span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <h2>Facts</h2>
+        <div class="underline mx-auto"></div>
+        <div class="container py-5">
+            <div class="row text-center" id="counters">
+                <div class="col-md-3 col-6 mb-4" *ngFor="let item of stats">
+                    <h2 class="counter" [id]="item.id">{{ item.value }}</h2>
+                    <div class="underline mx-auto"></div>
+                    <p class="text-muted">{{ item.label }}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
